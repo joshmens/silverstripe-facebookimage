@@ -1,12 +1,12 @@
 {
-	"name": "heyday/silverstripe-facebookimage",
+	"name": "joshmens/silverstripe-facebookimage",
 	"type": "silverstripe-module",
-	"description": "Provides an Image Field for use when sharing pages on facebook",
+	"description": "Provides an Image Field for use when sharing pages on facebook. Forked from heyday/silverstripe-facebookimage",
 	"type": "silverstripe-vendormodule",
 	"authors": [
 		{
-			"name": "Glenn Bautista",
-			"email": "glenn@heyday.co.nz"
+			"name": "Josh Mens",
+			"email": "josh.mens@hotmail.com"
 		}
 	],
 	"require": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace WT\FacebookImage;
+namespace JoshMens\FacebookImage;
 
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;

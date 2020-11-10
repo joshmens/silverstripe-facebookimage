@@ -1,6 +1,6 @@
 <?php
 
-namespace WT\FacebookImage;
+namespace JoshMens\FacebookImage;
 
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
@@ -30,7 +30,7 @@ class SiteConfigFacebookImageExtension extends DataExtension
     {
         $fields->addFieldToTab(
             'Root.Facebook',
-            $uf = new UploadField('FacebookImage', 'Default Facebook image for facebook share'),
+            $uf = new UploadField('FacebookImage', 'Default Facebook image for facebook share')
         );
 
         $uf->setFolderName('FacebookImages/');
