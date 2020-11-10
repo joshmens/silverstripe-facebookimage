@@ -28,10 +28,7 @@ class SiteConfigFacebookImageExtension extends DataExtension
      */
     public function updateCMSFields(FieldList $fields)
     {
-        $fields->addFieldToTab(
-            'Root.Facebook',
-            $uf = new UploadField('FacebookImage', 'Default Facebook image for facebook share')
-        );
+        $fields->addFieldToTab('Root.Facebook',$uf = new UploadField('FacebookImage', 'Default Facebook image for facebook share'));
 
         $uf->setFolderName('FacebookImages/');
     }
