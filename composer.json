@@ -5,8 +5,8 @@
 	"type": "silverstripe-vendormodule",
 	"authors": [
 		{
-			"name": "Glenn Bautista",
-			"email": "glenn@heyday.co.nz"
+			"name": "Josh Mens",
+			"email": "josh.mens@hotmail.com"
 		}
 	],
 	"require": {
